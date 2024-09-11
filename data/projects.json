@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Name Countries Game",
+        "description": "This project is a game where the user lists as many countries as they can.",
+        "startDate": "16/07/24",
+        "finishDate": "16/07/24",
+        "projectType": ["game", "frontend"],
+        "technologies": ["Vue", "JavaScript"]
+    }    
+]
