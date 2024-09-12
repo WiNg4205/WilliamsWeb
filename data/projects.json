@@ -1,10 +1,20 @@
 [
     {
         "title": "Name Countries Game",
+        "series": "MiniProjects",
         "description": "This project is a game where the user lists as many countries as they can.",
         "startDate": "16/07/24",
         "finishDate": "16/07/24",
         "projectType": ["game", "frontend"],
-        "technologies": ["Vue", "JavaScript"]
-    }    
+        "technologies": ["Vue"]
+    },
+    {
+        "title": "Straight Lines",
+        "series": "MiniProjects",
+        "description": "This is a canvas to test how straight your lines are.",
+        "startDate": "17/07/24",
+        "finishDate": "17/07/24",
+        "projectType": ["game", "frontend"],
+        "technologies": ["React"]
+    }
 ]
