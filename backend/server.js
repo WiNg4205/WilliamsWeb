@@ -1,12 +1,13 @@
 import express from 'express'
+import projectData from '../data/projects.json' assert { type: 'json' }
 
 const app = express()
 const port = 5000
 
 // Route definition
 app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+  res.json(projectData)
+});
 
 // Starting the server
 app.listen(port, () => {
