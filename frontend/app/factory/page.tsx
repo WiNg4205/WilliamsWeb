@@ -34,7 +34,7 @@ export default async function FactoryPage() {
               <td>{project.finishDate}</td>
               <td className="flex gap-2">
                 {project.technologies.map((tech) => (
-                  <div className="px-2 bg-gray-300 rounded-xl">{tech}</div>
+                  <div key={tech} className="px-2 bg-gray-300 rounded-xl">{tech}</div>
                 ))}
               </td>
             </tr>
