@@ -5,7 +5,7 @@ const app = express()
 const port = 5000
 
 // Route definition
-app.get('/', (req, res) => {
+app.get('/getProjectData', (req, res) => {
   res.json(projectData)
 });
 

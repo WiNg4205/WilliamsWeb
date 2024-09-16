@@ -1,20 +1,72 @@
 [
-    {
-        "title": "Name Countries Game",
-        "series": "MiniProjects",
-        "description": "This project is a game where the user lists as many countries as they can.",
-        "startDate": "16/07/24",
-        "finishDate": "16/07/24",
-        "projectType": ["game", "frontend"],
-        "technologies": ["Vue"]
-    },
-    {
-        "title": "Straight Lines",
-        "series": "MiniProjects",
-        "description": "This is a canvas to test how straight your lines are.",
-        "startDate": "17/07/24",
-        "finishDate": "17/07/24",
-        "projectType": ["game", "frontend"],
-        "technologies": ["React"]
-    }
+  {
+    "title": "Name Countries Game",
+    "series": "MiniProjects",
+    "description": "A game where the user lists as many countries as they can.",
+    "startDate": "16/07/24",
+    "finishDate": "16/07/24",
+    "projectType": ["game", "frontend"],
+    "technologies": ["Vue"],
+    "link": "https://github.com/WiNg4205/240716-NameCountriesGame"
+  },
+  {
+    "title": "Straight Lines",
+    "series": "MiniProjects",
+    "description": "A canvas to test how straight your lines are.",
+    "startDate": "17/07/24",
+    "finishDate": "17/07/24",
+    "projectType": ["game", "frontend"],
+    "technologies": ["React"],
+    "link": "https://github.com/WiNg4205/240717-StraightLines"
+  },
+  {
+    "title": "Rust URI Maze",
+    "series": "MiniProjects",
+    "description": "A very basic web application where the goal is for the user to click on options of letter buttons or a back button to eventually reveal a kind message!",
+    "startDate": "18/07/24",
+    "finishDate": "21/07/24",
+    "projectType": ["game", "backend"],
+    "technologies": ["Rust"],
+    "link": "https://github.com/WiNg4205/240718-rust_uri_maze"
+  },
+  {
+    "title": "Apple Stock Price",
+    "series": "MiniProjects",
+    "description": "An animated graph made in matplotlib showing the price of an Apple share from 1986 to the present day.",
+    "startDate": "22/07/24",
+    "finishDate": "22/07/24",
+    "projectType": ["data visualisation"],
+    "technologies": ["Python", "Matplotlib"],
+    "link": "https://github.com/WiNg4205/240722-apple_stock_price"
+  },
+  {
+    "title": "Albums Search Bar",
+    "series": "MiniProjects",
+    "description": "This is a webpage which shows a list of the top 5000 user rated albums on rateyourmusic.com.",
+    "startDate": "23/07/24",
+    "finishDate": "23/07/24",
+    "projectType": ["frontend", "backend"],
+    "technologies": ["Flask", "Pandas", "React"],
+    "link": "https://github.com/WiNg4205/240723-AlbumsSearchBar"
+  },
+  {
+    "title": "Albums Search Bar",
+    "series": "MiniProjects",
+    "description": "This is a tictactoe game implemented in C#.",
+    "startDate": "30/07/24",
+    "finishDate": "30/07/24",
+    "projectType": ["game"],
+    "technologies": ["C#"],
+    "link": "https://github.com/WiNg4205/240730-CSharpTicTacToe"
+  },
+  {
+    "title": "Spotify Song Popularity",
+    "series": "MiniProjects",
+    "description": "A project which lists the most popular songs of an artist on spotify ordered by the popularity score by spotify.",
+    "startDate": "01/08/24",
+    "finishDate": "01/08/24",
+    "projectType": ["CLI"],
+    "technologies": ["Python", "Spotify API"],
+    "link": "https://github.com/WiNg4205/240801-spotify_song_popularity"
+  }
 ]
