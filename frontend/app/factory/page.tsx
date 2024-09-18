@@ -2,6 +2,8 @@ import Header from "../components/Header";
 import Image from 'next/image';
 import { Project } from "../types/project";
 import Link from "next/link";
+import { useEffect } from "react";
+import { useInitialiseProject } from "../context/ProjectContext";
 
 export default async function FactoryPage() {
   const data = await fetch('http://localhost:5000/getProjectData');
@@ -12,6 +14,10 @@ export default async function FactoryPage() {
       .toLowerCase()
       .replace(/\s+/g, '-');
   }
+
+  useEffect(() => {
+    
+  })
 
   return (
     <>
