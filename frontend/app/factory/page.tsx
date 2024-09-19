@@ -1,23 +1,38 @@
+"use client";
+
 import Header from "../components/Header";
 import Image from 'next/image';
 import { Project } from "../types/project";
 import Link from "next/link";
-import { useEffect } from "react";
-import { useInitialiseProject } from "../context/ProjectContext";
+import { useEffect, useState } from "react";
+import { useProjects } from "../context/ProjectContext";
 
-export default async function FactoryPage() {
-  const data = await fetch('http://localhost:5000/getProjectData');
-  const projects: Project[] = await data.json();
+export default function FactoryPage() {
+  const [projects, setProjects] = useState<Project[]>([]);
+  const initialiseProject = useProjects()?.setProjectList;
+  
+  useEffect(() => {
+    
+    const fetchData = async () => {
+      const data = await fetch('http://localhost:5000/getProjectData');
+      const projects: Project[] = await data.json();
+
+      if (initialiseProject) {
+        initialiseProject(projects);
+        setProjects(projects);
+      } else {
+        console.error('initialiseProject is undefined');
+      }
+    };
+  
+    fetchData();
+  }, []);
 
   const titleToRoute = (title: string) => {
     return title
       .toLowerCase()
       .replace(/\s+/g, '-');
   }
-
-  useEffect(() => {
-    
-  })
 
   return (
     <>

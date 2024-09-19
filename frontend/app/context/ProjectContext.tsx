@@ -1,24 +1,30 @@
-import { createContext, useContext, useState } from "react";
+"use client"
 
-const ProjectContext = createContext([]);
-const initialiseProjectContext = createContext([]);
+import { createContext, useContext, useState, ReactNode, Dispatch, SetStateAction } from "react";
+import { Project } from "../types/project";
 
-export const useProject = () => {
-  return useContext(ProjectContext);
+interface ProjectsContextValue {
+  projectList: Project[] | null;
+  setProjectList: Dispatch<SetStateAction<Project[] | null>>
 }
 
-export const useInitialiseProject = () => {
-  return useContext(initialiseProjectContext);
+const ProjectsContext = createContext<ProjectsContextValue | undefined>(undefined);
+
+export const useProjects = () => {
+  console.log(useContext(ProjectsContext))
+  return useContext(ProjectsContext);
 }
 
-export default function ProjectProvider({ children }) {
-  const [projectList, setProjectList] = useState([]);
+interface ProjectProviderProps {
+  children: ReactNode;
+}
+
+export default function ProjectProvider({ children }: ProjectProviderProps) {
+  const [projectList, setProjectList] = useState<Project[] | null>([]);
 
   return (
-    <useInitialiseProject.Provider value={setProjectList}>
-      <useProject.Provider value={projectList}>
+      <ProjectsContext.Provider value={{projectList, setProjectList}}>
         {children}
-      </useProject.Provider>
-    </useInitialiseProject.Provider>
-  )
+      </ProjectsContext.Provider>
+  );
 }
