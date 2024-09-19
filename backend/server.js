@@ -9,8 +9,13 @@ const port = 5000;
 app.use(cors());
 
 // Route definition
-app.get('/getProjectData', (req, res) => {
+app.get('/getProjects', (req, res) => {
   res.json(projectData);
+});
+
+app.get('/getProject/:id', (req, res) => {
+  const projectId = req.params.id;
+  res.json(projectData[projectId]);
 });
 
 // Starting the server

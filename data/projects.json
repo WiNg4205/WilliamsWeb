@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1": {
     "title": "Name Countries Game",
     "series": "MiniProjects",
     "description": "A game where the user lists as many countries as they can.",
@@ -9,7 +9,7 @@
     "technologies": ["Vue"],
     "link": "https://github.com/WiNg4205/240716-NameCountriesGame"
   },
-  {
+  "2": {
     "title": "Straight Lines",
     "series": "MiniProjects",
     "description": "A canvas to test how straight your lines are.",
@@ -19,7 +19,7 @@
     "technologies": ["React"],
     "link": "https://github.com/WiNg4205/240717-StraightLines"
   },
-  {
+  "3": {
     "title": "Rust URI Maze",
     "series": "MiniProjects",
     "description": "A very basic web application where the goal is for the user to click on options of letter buttons or a back button to eventually reveal a kind message!",
@@ -29,7 +29,7 @@
     "technologies": ["Rust"],
     "link": "https://github.com/WiNg4205/240718-rust_uri_maze"
   },
-  {
+  "4": {
     "title": "Apple Stock Price",
     "series": "MiniProjects",
     "description": "An animated graph made in matplotlib showing the price of an Apple share from 1986 to the present day.",
@@ -39,7 +39,7 @@
     "technologies": ["Python", "Matplotlib"],
     "link": "https://github.com/WiNg4205/240722-apple_stock_price"
   },
-  {
+  "5": {
     "title": "Albums Search Bar",
     "series": "MiniProjects",
     "description": "This is a webpage which shows a list of the top 5000 user rated albums on rateyourmusic.com.",
@@ -49,7 +49,7 @@
     "technologies": ["Flask", "Pandas", "React"],
     "link": "https://github.com/WiNg4205/240723-AlbumsSearchBar"
   },
-  {
+  "6": {
     "title": "C# TicTacToe",
     "series": "MiniProjects",
     "description": "This is a tictactoe game implemented in C#.",
@@ -59,7 +59,7 @@
     "technologies": ["C#"],
     "link": "https://github.com/WiNg4205/240730-CSharpTicTacToe"
   },
-  {
+  "7": {
     "title": "Spotify Song Popularity",
     "series": "MiniProjects",
     "description": "A project which lists the most popular songs of an artist on spotify ordered by the popularity score by spotify.",
@@ -69,4 +69,4 @@
     "technologies": ["Python", "Spotify API"],
     "link": "https://github.com/WiNg4205/240801-spotify_song_popularity"
   }
-]
+}

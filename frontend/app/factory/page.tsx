@@ -5,34 +5,20 @@ import Image from 'next/image';
 import { Project } from "../types/project";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { useProjects } from "../context/ProjectContext";
 
 export default function FactoryPage() {
+  // replace state with regular variable? do we need useEffect?
   const [projects, setProjects] = useState<Project[]>([]);
-  const initialiseProject = useProjects()?.setProjectList;
   
   useEffect(() => {
-    
     const fetchData = async () => {
-      const data = await fetch('http://localhost:5000/getProjectData');
+      const data = await fetch('http://localhost:5000/getProjects');
       const projects: Project[] = await data.json();
-
-      if (initialiseProject) {
-        initialiseProject(projects);
-        setProjects(projects);
-      } else {
-        console.error('initialiseProject is undefined');
-      }
+      setProjects(projects);
     };
   
     fetchData();
   }, []);
-
-  const titleToRoute = (title: string) => {
-    return title
-      .toLowerCase()
-      .replace(/\s+/g, '-');
-  }
 
   return (
     <>
@@ -48,10 +34,10 @@ export default function FactoryPage() {
           </tr>
         </thead>
         <tbody>
-        {projects.map((project, index) => (
-          <tr key={project.title} className={index % 2 == 0 ? 'bg-gray-100' : ''}>
+        {Object.entries(projects).map(([key, project], index) => (
+          <tr key={key} className={index % 2 === 0 ? 'bg-gray-100' : ''}>
             <td>
-              <Link href={`/factory/${titleToRoute(project.title)}`}>{project.title}</Link>
+              <Link href={`/factory/${key}`}>{project.title}</Link>
             </td>
             <td>{project.finishDate}</td>
             <td className="flex gap-2">
