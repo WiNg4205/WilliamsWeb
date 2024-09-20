@@ -12,7 +12,7 @@ export default function FactoryPage() {
   
   useEffect(() => {
     const fetchData = async () => {
-      const data = await fetch('http://localhost:5000/getProjects');
+      const data = await fetch('http://localhost:3000/api/getProjects');
       const projects: Project[] = await data.json();
       setProjects(projects);
     };
