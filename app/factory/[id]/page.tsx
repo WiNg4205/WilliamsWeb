@@ -1,4 +1,4 @@
-import { Project } from "@/app/types/project"
+import { Project } from "@/app/types/project";
 import Image from "next/image";
 
 export default async function Page({ params }: { params: { id: string } }) {

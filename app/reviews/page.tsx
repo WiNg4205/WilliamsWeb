@@ -1,5 +1,3 @@
-import Header from "../components/Header";
-
 interface Post {
   id: number;
   title: string;
@@ -11,7 +9,6 @@ export default async function ReviewsPage() {
 
   return (
     <>
-    <Header />
       <ul>
         {posts.map((post) => (
           <li key={post.id}>{post.title}</li>
