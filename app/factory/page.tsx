@@ -1,5 +1,5 @@
 import { Project } from "@/app/types/project";
-import FactoryTable from "../components/FactoryTable";
+import FactoryTable from "@/app/components/FactoryTable";
 
 export default async function FactoryPage() {
   const data = await fetch('http://localhost:3000/api/getProjects');

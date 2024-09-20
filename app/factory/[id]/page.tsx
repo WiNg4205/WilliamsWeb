@@ -4,7 +4,7 @@ import Image from "next/image";
 export default async function Page({ params }: { params: { id: string } }) {
   const data = await fetch(`http://localhost:3000/api/getProject/${params.id}`);
   const project: Project = await data.json();
-  console.log(project.technologies);
+
   return (
     <>
       <h1>{project.title}</h1>
