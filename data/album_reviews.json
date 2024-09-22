@@ -1,0 +1,35 @@
+{
+  "1": {
+    "title": "Madvillainy",
+    "artist": "MadVillain",
+    "publishDate": "22/09/24",
+    "lastUpdated": null,
+    "genre": ["Rap/Hip hop", "Abstract Hip hop", "Experimental Hip hop"],
+    "highlights": ["Accordion", "Meat Grinder", "Raid", "Curls", "Figaro", "Strange Ways", "All Caps", "Rhinestone Cowboy"],
+    "bestTrack": "All Caps",
+    "score": 10,
+    "review": "Perfect rapping + perfect production = perfect album"
+  },
+  "2": {
+    "title": "Sound of Silver",
+    "artist": "LCD Soundsystem",
+    "publishDate": "22/09/24",
+    "lastUpdated": null,
+    "genre": ["Electronic", "Dance-Punk", "Indietronica"],
+    "highlights": ["North American Scum", "Someone Great", "All My Friends", "New York, I Love You but You're Bringing Me Down"],
+    "bestTrack": "All My Friends",
+    "score": 8,
+    "review": null
+  },
+  "3": {
+    "title": "CRAZY",
+    "artist": "LE SSERAFIM",
+    "publishDate": "22/09/24",
+    "lastUpdated": null,
+    "genre": ["K-pop", "Eletropop", "House", "Pop Rap"],
+    "highlights": ["CRAZY", "Crazier"],
+    "bestTrack": "CRAZY",
+    "score": 6,
+    "review": null
+  }
+}
