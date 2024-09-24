@@ -1,8 +1,9 @@
 {
   "1": {
     "title": "Madvillainy",
-    "artist": "MadVillain",
-    "publishDate": "22/09/24",
+    "artist": "Madvillain",
+    "year": 2004,
+    "reviewDate": "22/09/24",
     "lastUpdated": null,
     "genre": ["Rap/Hip hop", "Abstract Hip hop", "Experimental Hip hop"],
     "highlights": ["Accordion", "Meat Grinder", "Raid", "Curls", "Figaro", "Strange Ways", "All Caps", "Rhinestone Cowboy"],
@@ -13,7 +14,8 @@
   "2": {
     "title": "Sound of Silver",
     "artist": "LCD Soundsystem",
-    "publishDate": "22/09/24",
+    "year": 2007,
+    "reviewDate": "22/09/24",
     "lastUpdated": null,
     "genre": ["Electronic", "Dance-Punk", "Indietronica"],
     "highlights": ["North American Scum", "Someone Great", "All My Friends", "New York, I Love You but You're Bringing Me Down"],
@@ -24,7 +26,8 @@
   "3": {
     "title": "CRAZY",
     "artist": "LE SSERAFIM",
-    "publishDate": "22/09/24",
+    "year": 2024,
+    "reviewDate": "22/09/24",
     "lastUpdated": null,
     "genre": ["K-pop", "Eletropop", "House", "Pop Rap"],
     "highlights": ["CRAZY", "Crazier"],

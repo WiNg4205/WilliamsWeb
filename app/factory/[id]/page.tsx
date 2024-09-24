@@ -13,9 +13,12 @@ export default async function Page({ params }: { params: { id: string } }) {
       {project.technologies.map((tech) => (
         <div key={tech}>{tech}</div>
       ))}
-      <a href={project.link} target="_blank" rel="noopener noreferrer">
+      <a href={project.repository} target="_blank" rel="noopener noreferrer">
         <Image src="/link-icon.svg" alt="LinkIcon" width={12} height={12} priority />
       </a>
+      {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer">
+        <Image src="/check-icon.svg" alt="Check icon" height={12} width={12} priority />
+      </a>}
     </>
   )
 }

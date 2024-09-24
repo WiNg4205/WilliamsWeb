@@ -7,7 +7,8 @@
     "finishDate": "16/07/24",
     "projectType": ["game", "frontend"],
     "technologies": ["Vue"],
-    "link": "https://github.com/WiNg4205/240716-NameCountriesGame"
+    "repository": "https://github.com/WiNg4205/240716-NameCountriesGame",
+    "link": null
   },
   "2": {
     "title": "Straight Lines",
@@ -17,7 +18,8 @@
     "finishDate": "17/07/24",
     "projectType": ["game", "frontend"],
     "technologies": ["React"],
-    "link": "https://github.com/WiNg4205/240717-StraightLines"
+    "repository": "https://github.com/WiNg4205/240717-StraightLines",
+    "link": null
   },
   "3": {
     "title": "Rust URI Maze",
@@ -27,7 +29,8 @@
     "finishDate": "21/07/24",
     "projectType": ["game", "backend"],
     "technologies": ["Rust"],
-    "link": "https://github.com/WiNg4205/240718-rust_uri_maze"
+    "repository": "https://github.com/WiNg4205/240718-rust_uri_maze",
+    "link": null
   },
   "4": {
     "title": "Apple Stock Price",
@@ -37,7 +40,8 @@
     "finishDate": "22/07/24",
     "projectType": ["data visualisation"],
     "technologies": ["Python", "Matplotlib"],
-    "link": "https://github.com/WiNg4205/240722-apple_stock_price"
+    "repository": "https://github.com/WiNg4205/240722-apple_stock_price",
+    "link": null
   },
   "5": {
     "title": "Albums Search Bar",
@@ -47,7 +51,8 @@
     "finishDate": "23/07/24",
     "projectType": ["frontend", "backend"],
     "technologies": ["Flask", "Pandas", "React"],
-    "link": "https://github.com/WiNg4205/240723-AlbumsSearchBar"
+    "repository": "https://github.com/WiNg4205/240723-AlbumsSearchBar",
+    "link": null
   },
   "6": {
     "title": "C# TicTacToe",
@@ -57,7 +62,8 @@
     "finishDate": "30/07/24",
     "projectType": ["game"],
     "technologies": ["C#"],
-    "link": "https://github.com/WiNg4205/240730-CSharpTicTacToe"
+    "repository": "https://github.com/WiNg4205/240730-CSharpTicTacToe",
+    "link": null
   },
   "7": {
     "title": "Spotify Song Popularity",
@@ -67,6 +73,7 @@
     "finishDate": "01/08/24",
     "projectType": ["CLI"],
     "technologies": ["Python", "Spotify API"],
-    "link": "https://github.com/WiNg4205/240801-spotify_song_popularity"
+    "repository": "https://github.com/WiNg4205/240801-spotify_song_popularity",
+    "link": null
   }
 }

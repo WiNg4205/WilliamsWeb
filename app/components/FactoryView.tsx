@@ -4,8 +4,8 @@ import { Project } from "@/app/types/project";
 import { DisplayMode } from "@/app/types/view";
 import Image from "next/image";
 import { useState } from "react";
-import TableView from "./TableView";
-import GridView from "./GridView";
+import TableView from "@/app/components/TableView";
+import GridView from "@/app/components/GridView";
 
 type Props = {
   projects: Project[]

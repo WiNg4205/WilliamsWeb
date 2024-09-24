@@ -1,5 +1,6 @@
 import { Project } from "@/app/types/project";
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {
   projects: Project[]
@@ -7,13 +8,16 @@ type Props = {
 
 export default function GridView({ projects }: Props) {
   return (
-
-      <div className="self-center grid grid-cols-4">
-        {Object.entries(projects).map(([key, projects], index) => (
-          <Image src="/1.png" alt="#1 preview" height={300} width={300} className="p-4"/>
-        ))}
-      </div>      
-
-
+    <div className="self-center grid grid-cols-4 bg-gray-500 gap-4 p-4">
+      {Object.entries(projects).map(([key, project]) => (
+        <div className="p-4 bg-gray-200">
+          <Link href={`/factory/${key}`}>
+            <Image src={`/${key}.png`} alt={`Project #${key} preview`} height={300} width={300} className="p-4"/>
+            <h1 className="font-bold">{project.title}</h1>
+            <p>{project.description}</p>          
+          </Link>
+        </div>
+      ))}
+    </div>
   )
 }

@@ -6,5 +6,6 @@ export interface Project {
   finishDate: string;
   projectType: string[];
   technologies: string[];
-  link: string;
+  repository: string;
+  link: string | null;
 }
