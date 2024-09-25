@@ -2,7 +2,7 @@ import { Project } from "@/app/types/project";
 import Image from "next/image";
 
 export default async function Page({ params }: { params: { id: string } }) {
-  const data = await fetch(`http://localhost:3000/api/getProject/${params.id}`);
+  const data = await fetch(`${process.env.BASE_URL}/api/getProject/${params.id}`);
   const project: Project = await data.json();
 
   return (

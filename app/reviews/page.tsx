@@ -1,7 +1,7 @@
 import { AlbumReview } from "@/app/types/review";
 
 export default async function ReviewsPage() {
-  const data = await fetch('http://localhost:3000/api/getAlbumReviews');
+  const data = await fetch(`${process.env.BASE_URL}/api/getAlbumReviews`);
   const reviews: AlbumReview[] = await data.json();
   return (
     <>
@@ -32,7 +32,6 @@ export default async function ReviewsPage() {
         ))}          
         </tbody>
       </table>
-
     </>
   );
 }
