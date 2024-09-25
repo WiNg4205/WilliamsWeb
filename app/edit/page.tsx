@@ -1,5 +1,5 @@
 export default function EditPage() {
   return (
-    <div>Welcome to <span className="text-blue-500">Editing William's Web</span></div>
+    <div><span className="text-blue-500">Editing </span>William&apos;s Web...</div>
   );
 }

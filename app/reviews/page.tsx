@@ -5,7 +5,7 @@ export default async function ReviewsPage() {
   const reviews: AlbumReview[] = await data.json();
   return (
     <>
-      <div>Welcome to <span className="text-blue-500">William's reviews</span></div>
+      <div>Welcome to <span className="text-blue-500">William&apos;s reviews</span></div>
       <table>
         <thead>
           <tr>
@@ -17,7 +17,7 @@ export default async function ReviewsPage() {
           </tr>
         </thead>
         <tbody>
-        {Object.entries(reviews).map(([key, review], index) => (
+        {Object.entries(reviews).map(([key, review]) => (
           <tr key={key}>
             <td>{review.title}</td>
             <td>{review.artist}</td>

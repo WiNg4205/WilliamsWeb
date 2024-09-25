@@ -7,7 +7,7 @@ export default async function FactoryPage() {
 
   return (
     <>
-      <div>Welcome to <span className="text-blue-500">William's factory</span></div>
+      <div>Welcome to <span className="text-blue-500">William&apos;s factory</span></div>
       <ProjectsView projects={projects} />
     </>
   );
