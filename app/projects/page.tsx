@@ -1,5 +1,5 @@
 import { Project } from "@/app/types/project";
-import FactoryView from "@/app/components/FactoryView";
+import ProjectsView from "@/app/components/ProjectsView";
 
 export default async function FactoryPage() {
   const data = await fetch('http://localhost:3000/api/getProjects');
@@ -8,7 +8,7 @@ export default async function FactoryPage() {
   return (
     <>
       <div>Welcome to <span className="text-blue-500">William's factory</span></div>
-      <FactoryView projects={projects} />
+      <ProjectsView projects={projects} />
     </>
   );
 }

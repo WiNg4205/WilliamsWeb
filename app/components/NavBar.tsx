@@ -8,7 +8,7 @@ export default function Header() {
         <Link href="/" className="p-2 hover:bg-white">
           <Image src="/favicon.ico" alt="HomeIcon" width={24} height={24} />
         </Link>
-        <Link href="/factory" className="p-2 hover:bg-white">Factory</Link>
+        <Link href="/projects" className="p-2 hover:bg-white">Projects</Link>
         <Link href="/reviews" className="p-2 hover:bg-white">Reviews</Link>
         <Link href="/studio" className="p-2 hover:bg-white">Studio</Link>
       </div>
