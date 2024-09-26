@@ -1,9 +1,13 @@
+"use client"
+
+import useSWR from "swr";
 import { Project } from "@/app/types/project";
 import ProjectsView from "@/app/components/ProjectsView";
+import fetcher from "../utils/fetcher";
 
-export default async function FactoryPage() {
-  const data = await fetch(`${process.env.BASE_URL}/api/getProjects`);
-  const projects: Project[] = await data.json();
+export default function FactoryPage() {
+  const { data } = useSWR("api/getProjects", fetcher)
+  const projects: Project[] = data || [];
 
   return (
     <>

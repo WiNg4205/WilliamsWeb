@@ -22,7 +22,7 @@ export default function TableView({ projects }: Props) {
       {Object.entries(projects).map(([key, project], index) => (
         <tr key={key} className={index % 2 === 0 ? 'bg-gray-100' : ''}>
           <td>
-            <Link href={`/factory/${key}`}>{project.title}</Link>
+            <Link href={`/projects/${key}`}>{project.title}</Link>
           </td>
           <td>{project.startDate} - {project.finishDate}</td>
           <td className="flex gap-2">

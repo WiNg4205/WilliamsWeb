@@ -1,9 +1,13 @@
-import { Project } from "@/app/types/project";
-import Image from "next/image";
+"use client"
 
-export default async function Page({ params }: { params: { id: string } }) {
-  const data = await fetch(`${process.env.BASE_URL}/api/getProject/${params.id}`);
-  const project: Project = await data.json();
+import { Project, emptyProject } from "@/app/types/project";
+import fetcher from "@/app/utils/fetcher";
+import Image from "next/image";
+import useSWR from "swr";
+
+export default function Page({ params }: { params: { id: string } }) {
+  const { data } = useSWR(`/api/getProject/${params.id}`, fetcher);
+  const project: Project = data || emptyProject;
 
   return (
     <>

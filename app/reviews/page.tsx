@@ -1,8 +1,12 @@
-import { AlbumReview } from "@/app/types/review";
+"use client"
 
-export default async function ReviewsPage() {
-  const data = await fetch(`${process.env.BASE_URL}/api/getAlbumReviews`);
-  const reviews: AlbumReview[] = await data.json();
+import { AlbumReview } from "@/app/types/review";
+import useSWR from "swr";
+import fetcher from "@/app/utils/fetcher";
+
+export default function ReviewsPage() {
+  const { data } = useSWR("/api/getAlbumReviews", fetcher);
+  const reviews: AlbumReview[] = data || [];
   return (
     <>
       <div>Welcome to <span className="text-blue-500">William&apos;s reviews</span></div>

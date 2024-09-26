@@ -9,3 +9,15 @@ export interface Project {
   repository: string;
   link: string | null;
 }
+
+export const emptyProject: Project = {
+  title: '',
+  series: '',
+  description: '',
+  startDate: '',
+  finishDate: '',
+  projectType: [],
+  technologies: [],
+  repository: '',
+  link: null,
+};
