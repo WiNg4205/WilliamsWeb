@@ -3,7 +3,7 @@
 import useSWR from "swr";
 import { Project } from "@/app/types/project";
 import ProjectsView from "@/app/components/ProjectsView";
-import fetcher from "../utils/fetcher";
+import fetcher from "@/app/utils/fetcher";
 
 export default function FactoryPage() {
   const { data } = useSWR("api/getProjects", fetcher)

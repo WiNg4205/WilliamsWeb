@@ -11,6 +11,15 @@ export default function Page({ params }: { params: { id: string } }) {
 
   return (
     <>
+      <Image 
+        src={`/${params.id}.png`} 
+        alt={`Project #${params.id} preview`} 
+        width={1920}
+        height={918}
+        priority 
+        quality={100}
+        unoptimized
+      />
       <h1>{project.title}</h1>
       <p>{project.description}</p><br />
       <p>Duration: {project.startDate} - {project.finishDate}</p>

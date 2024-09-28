@@ -38,7 +38,7 @@
     "description": "An animated graph made in matplotlib showing the price of an Apple share from 1986 to the present day.",
     "startDate": "22/07/24",
     "finishDate": "22/07/24",
-    "projectType": ["data visualisation"],
+    "projectType": ["Data visualisation"],
     "technologies": ["Python", "Matplotlib"],
     "repository": "https://github.com/WiNg4205/240722-apple_stock_price",
     "link": null
@@ -50,7 +50,7 @@
     "startDate": "23/07/24",
     "finishDate": "23/07/24",
     "projectType": ["frontend", "backend"],
-    "technologies": ["Flask", "Pandas", "React"],
+    "technologies": ["Flask", "Pandas", "React", "TailwindCSS"],
     "repository": "https://github.com/WiNg4205/240723-AlbumsSearchBar",
     "link": null
   },
@@ -75,5 +75,170 @@
     "technologies": ["Python", "Spotify API"],
     "repository": "https://github.com/WiNg4205/240801-spotify_song_popularity",
     "link": null
+  },
+  "8": {
+    "title": "Discord UI Basic",
+    "series":"MiniProjects",
+    "description": "This is a basic Discord UI with the server sidebar and the server name shown on the channels bar.",
+    "startDate": "04/08/24",
+    "finishDate": "04/08/24",
+    "projectType": ["frontend"],
+    "technologies": ["React", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/240804-DiscordUIBasic",
+    "link": null
+  },
+  "9": {
+    "title": "Pinterest UI Basic",
+    "series":"MiniProjects",
+    "description": "This is a basic pinterest UI which includes the navbar and clickable routes.",
+    "startDate": "05/08/24",
+    "finishDate": "05/08/24",
+    "projectType": ["frontend"],
+    "technologies": ["React", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/240805-PinterestUIBasic",
+    "link": null
+  },
+  "10": {
+    "title": "Twitter UI Basic",
+    "series":"MiniProjects",
+    "description": "This is the twitter/X UI with a sidebar that links to routes with no context and also the 'For you' and 'Following' items on the homepage.",
+    "startDate": "06/08/24",
+    "finishDate": "06/08/24",
+    "projectType": ["frontend"],
+    "technologies": ["React", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/240806-TwitterUIBasic",
+    "link": null
+  },
+  "11": {
+    "title": "Reddit UI Basic",
+    "series":"MiniProjects",
+    "description": "This is a basic reddit ui with only the header with hovers and empty content for the layout.",
+    "startDate": "08/08/24",
+    "finishDate": "08/08/24",
+    "projectType": ["frontend"],
+    "technologies": ["React", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/240808-RedditUIBasic",
+    "link": null
+  },
+  "12": {
+    "title": "Gmail UI Basic",
+    "series":"MiniProjects",
+    "description": "This is a basic gmail UI with no routes and emails.",
+    "startDate": "16/08/24",
+    "finishDate": "16/08/24",
+    "projectType": ["frontend"],
+    "technologies": ["Nuxt", "Vue", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/240816-GmailUIBasic",
+    "link": null
+  },
+  "13": {
+    "title": "ChatGPT UI Basic",
+    "series":"MiniProjects",
+    "description": "This is a basic ChatGPT UI with a header, textbox and a collapsible sidebar with complete button stylings.",
+    "startDate": "18/08/24",
+    "finishDate": "19/08/24",
+    "projectType": ["frontend"],
+    "technologies": ["Nuxt", "Vue", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/240818-ChatGPTUIBasic",
+    "link": null
+  },
+  "14": {
+    "title": "Chat Rooms",
+    "series":"MiniProjects",
+    "description": "This is a basic UI for a theoretical front page of a chat room app with no routes.",
+    "startDate": "21/08/24",
+    "finishDate": "21/08/24",
+    "projectType": ["frontend"],
+    "technologies": ["Nuxt", "Vue", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/240821-ChatRooms",
+    "link": null
+  },
+  "15": {
+    "title": "Dictionary",
+    "series":"MiniProjects",
+    "description": "This is a basic single page app where a user types in a word and all definitions are displayed on the screen.",
+    "startDate": "22/08/24",
+    "finishDate": "22/08/24",
+    "projectType": ["frontend"],
+    "technologies": ["Nuxt", "Vue", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/240822-Dictionary",
+    "link": null
+  },
+  "16": {
+    "title": "Flask to-do CLI",
+    "series":"MiniProjects",
+    "description": "This is a basic todo list CRUD app using the click python package as the cli.",
+    "startDate": "23/08/24",
+    "finishDate": "23/08/24",
+    "projectType": ["CLI", "backend"],
+    "technologies": ["Flask", "SQLite"],
+    "repository": "",
+    "link": null
+  },
+  "17": {
+    "title": "Flask Chatting",
+    "series":"MiniProjects",
+    "description": "This is a simple web app where the user types in a message and can click send to permanently save the message.",
+    "startDate": "24/08/24",
+    "finishDate": "24/08/24",
+    "projectType": ["backend"],
+    "technologies": ["Flask", "SQLite"],
+    "repository": "https://github.com/WiNg4205/240824-flask_chatting",
+    "link": null
+  },
+  "18": {
+    "title": "Pinging the cloud",
+    "series":"MiniProjects",
+    "description": "This is a Amazon Lambda function that keeps track of how many times this api has been invoked.",
+    "startDate": "27/08/24",
+    "finishDate": "27/08/24",
+    "projectType": ["Cloud"],
+    "technologies": ["AWS"],
+    "repository": "https://github.com/WiNg4205/240827-pinging_the_cloud",
+    "link": "https://7zv6l6as52.execute-api.ap-southeast-2.amazonaws.com/default/hourly_ping"
+  },
+  "19": {
+    "title": "Oligarchy Data",
+    "series":"MiniProjects",
+    "description": "This program is a CLI tool which extracts data (rank, company name, company code, country, market cap) from the top 500 global public companies and can list the data with some queries.",
+    "startDate": "28/08/24",
+    "finishDate": "28/08/24",
+    "projectType": ["web scraping", "backend"],
+    "technologies": ["Flask", "SQLite"],
+    "repository": "https://github.com/WiNg4205/240828-oligarchy_data",
+    "link": null
+  },
+  "20": {
+    "title": "Tennis Rankings Table",
+    "series":"MiniProjects",
+    "description": "description",
+    "startDate": "29/08/24",
+    "finishDate": "29/08/24",
+    "projectType": ["frontend", "backend", "web scraping"],
+    "technologies": ["Nuxt", "Vue", "TailwindCSS", "Flask", "Selenium", "SQLite"],
+    "repository": "https://github.com/WiNg4205/240829-TennisRankingsTable",
+    "link": null
+  },
+  "21": {
+    "title": "Tennis Rankings Unstyled",
+    "series":"MiniProjects",
+    "description": "This is the unstyled version of the Men's Singles ATP Rankings.",
+    "startDate": "01/09/24",
+    "finishDate": "01/09/24",
+    "projectType": ["frontend"],
+    "technologies": ["Vue", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/240901-TennisRankingsUnstyled",
+    "link": "https://wing4205.github.io/240901-TennisRankingsUnstyled/"
+  },
+  "22": {
+    "title": "Tennis Rankings Styled",
+    "series": "MiniProjects",
+    "description": "This is a styled rankings table of the Men's Singles ATP rankings.",
+    "startDate": "02/09/24",
+    "finishDate": "02/09/24",
+    "projectType": ["frontend"],
+    "technologies": ["Vue", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/240902-TennisRankingsStyled",
+    "link": "https://wing4205.github.io/240902-TennisRankingsStyled/"
   }
 }
