@@ -14,8 +14,8 @@ export default function Page({ params }: { params: { id: string } }) {
       <Image 
         src={`/${params.id}.png`} 
         alt={`Project #${params.id} preview`} 
-        width={1920}
-        height={918}
+        width={300}
+        height={300}
         priority 
         quality={100}
         unoptimized
