@@ -240,5 +240,16 @@
     "technologies": ["Vue", "TailwindCSS"],
     "repository": "https://github.com/WiNg4205/240902-TennisRankingsStyled",
     "link": "https://wing4205.github.io/240902-TennisRankingsStyled/"
+  },
+  "23": {
+    "title": "YouTube UI",
+    "series": "UI Clones",
+    "description": "A YouTube UI clone",
+    "startDate": "29/09/24",
+    "finishDate": "present",
+    "projectType": ["frontend"],
+    "technologies": ["NextJS", "React", "TailwindCSS"],
+    "repository": "https://github.com/WiNg4205/YouTubeUI",
+    "link": "https://youtube-ui-five-sandy.vercel.app/"
   }
 }
