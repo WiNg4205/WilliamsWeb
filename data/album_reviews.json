@@ -29,10 +29,46 @@
     "year": 2024,
     "reviewDate": "22/09/24",
     "lastUpdated": null,
-    "genre": ["K-pop", "Eletropop", "House", "Pop Rap"],
+    "genre": ["K-pop", "Electropop", "House", "Pop Rap"],
     "highlights": ["CRAZY", "Crazier"],
     "bestTrack": "CRAZY",
     "score": 6,
+    "review": null
+  },
+  "4": {
+    "title": "CHROMAKOPIA",
+    "artist": "Tyler, The Creator",
+    "year": 2024,
+    "reviewDate": "03/11/24",
+    "lastUpdated": null,
+    "genre": ["Rap/Hip hop", "Experimental Hip hop"],
+    "highlights": ["St. Chroma", "Noid", "Darling, I", "Sticky", "Take Your Mask Off", "Thought I Was Dead"],
+    "bestTrack": "St. Chroma",
+    "score": 9,
+    "review": null
+  },
+  "5": {
+    "title": "SMILE! :D",
+    "artist": "Porter Robinson",
+    "year": 2024,
+    "reviewDate": "03/11/24",
+    "lastUpdated": null,
+    "genre": ["Rap/Hip hop", "Experimental Hip hop"],
+    "highlights": ["Knock Yourself Out XD", "Cheerleader"],
+    "bestTrack": "Knock Yourself Out XD",
+    "score": 7,
+    "review": null
+  },
+  "6": {
+    "title": "Nurture",
+    "artist": "Porter Robinson",
+    "year": 2021,
+    "reviewDate": "03/11/24",
+    "lastUpdated": null,
+    "genre": ["Indietronica", "Electropop"],
+    "highlights": ["Look at the Sky", "Get Your Wish", "Musician", "Something Comforting", "Unfold", "Trying to Feel Alive"],
+    "bestTrack": "Something Comforting",
+    "score": 9,
     "review": null
   }
 }

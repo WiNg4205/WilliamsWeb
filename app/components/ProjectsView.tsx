@@ -15,7 +15,7 @@ export default function Projects({ projects }: Props) {
   
   return (
     <div className="flex flex-col items-center mt-8">
-      <div className="flex items-center pr-20">
+      <div className="flex items-center">
         <div 
           className={`p-2 ${displayMode === "table" ? "bg-gray-300" : ""}`} 
           onClick={() => setDisplayMode("table")}

@@ -243,7 +243,7 @@
   },
   "23": {
     "title": "YouTube UI",
-    "series": "UI Clones",
+    "series": "MajorProjects",
     "description": "A YouTube UI clone",
     "startDate": "29/09/24",
     "finishDate": "present",
@@ -251,5 +251,27 @@
     "technologies": ["NextJS", "React", "TailwindCSS"],
     "repository": "https://github.com/WiNg4205/YouTubeUI",
     "link": "https://youtube-ui-five-sandy.vercel.app/"
+  },
+  "24": {
+    "title": "Serverless Scraper",
+    "series": "MiniProjects",
+    "description": "This is a page that displays a table of the top 100 most valuable public companies in the world.",
+    "startDate": "02/11/24",
+    "finishDate": "02/11/24",
+    "projectType": ["backend", "webscraping"],
+    "technologies": ["NextJS", "React", "TailwindCSS", "AWS", "Lambda"],
+    "repository": "https://github.com/WiNg4205/241102-ServerlessScraper",
+    "link": "https://241102-serverless-scraper.vercel.app"
+  },
+  "25": {
+    "title": "TicTacToe AI",
+    "series": "MajorProjects",
+    "description": "",
+    "startDate": "03/11/24",
+    "finishDate": "present",
+    "projectType": ["backend", "AI"],
+    "technologies": ["NextJS", "React", "TailwindCSS", "AWS", "Lambda", "Python"],
+    "repository": "https://github.com/WiNg4205/TicTacToeAI",
+    "link": "https://tic-tac-toe-ai-three.vercel.app/"
   }
 }
