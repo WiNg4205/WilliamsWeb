@@ -10,7 +10,7 @@ export default function FactoryPage() {
   const projects: Project[] = data || [];
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center mb-12">
       <div className="text-xl font-semibold mt-8">Welcome to <span className="text-blue-500">William&apos;s factory</span></div>
       <ProjectsView projects={projects} />
     </div>

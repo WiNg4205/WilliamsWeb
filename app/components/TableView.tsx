@@ -1,5 +1,4 @@
 import { Project } from "@/app/types/project";
-import Link from "next/link";
 
 type Props = {
   projects: Project[]
@@ -21,7 +20,7 @@ export default function TableView({ projects }: Props) {
       {Object.entries(projects).map(([key, project]) => (
         <tr key={key} className="even:bg-gray-100 dark:even:bg-gray-800">
           <td className="px-4">
-            <Link href={`/projects/${key}`}>{project.title}</Link>
+            {project.title}
           </td>
           <td>{project.startDate} - {project.finishDate}</td>
           <td className="px-4 flex gap-2">

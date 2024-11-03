@@ -266,7 +266,7 @@
   "25": {
     "title": "TicTacToe AI",
     "series": "MajorProjects",
-    "description": "",
+    "description": "A TicTacToe Bot",
     "startDate": "03/11/24",
     "finishDate": "present",
     "projectType": ["backend", "AI"],
