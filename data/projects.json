@@ -272,6 +272,17 @@
     "projectType": ["backend", "AI"],
     "technologies": ["NextJS", "React", "TailwindCSS", "AWS", "Lambda", "Python"],
     "repository": "https://github.com/WiNg4205/TicTacToeAI",
-    "link": "https://tic-tac-toe-ai-three.vercel.app/"
+    "link": "https://tic-tac-toe-ai-three.vercel.app"
+  },
+  "26": {
+    "title": "Maze AI",
+    "series": "MajorProjects",
+    "description": "A Maze Solver",
+    "startDate": "14/11/24",
+    "finishDate": "present",
+    "projectType": ["backend", "AI"],
+    "technologies": ["NextJS", "React", "TailwindCSS", "AWS", "Lambda", "Python"],
+    "repository": "https://github.com/WiNg4205/MazeAI",
+    "link": "https://maze-ai-ten.vercel.app"
   }
 }
